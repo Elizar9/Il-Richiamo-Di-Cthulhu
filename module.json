@@ -1,13 +1,12 @@
 {
-    "id": "multiverse5e",
-    "title": "5e Multiverse Compendium",
-    "version": "0.2.1",
+    "id": "ilrichiamodicthulhu",
+    "title": "Compendium Il Richiamo di Cthulhu 7ed",
+    "version": "0.0.1",
     "authors": [
         {
-            "name": "Archer39",
-            "url": "https://github.com/Archer39/",
-            "discord": "Il chierico#0285"
-        }
+            "name": "Elizar",
+            "url": "https://github.com/Elizar9/",
+                    }
     ],
     "compatibility": {
             "minimum": "10",
@@ -20,12 +19,12 @@
     "relationships": {
         "systems": [
             {
-                "id": "dnd5e",
+                "id": "CoC7",
                 "type": "system",
                 "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
                 "compatibility": {
-                    "minimum": "2.0.0",
-                    "verified": "2.1.5"
+                    "minimum": "0.10.5",
+                    "verified": "0.10.5"
                 }
               }],
               "requires": [{
@@ -39,28 +38,28 @@
             },
     "packs": [
         {
-            "name": "personaggi",
-            "label": "Personaggi",
-            "path": "packs/personaggi.db",
-            "entity": "Actor",
-            "type": "Actor",
-            "package": "multiverse5e"
+            "name": "armi",
+            "label": "Armi",
+            "path": "packs/armi.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "ilrichiamodicthulhu"
         },
         {
-            "name": "avventure",
-            "label": "Avventure",
-            "path": "packs/avventure.db",
-            "entity": "Adventure",
-            "type": "Adventure",
-            "package": "multiverse5e"
+            "name": "incantesimi",
+            "label": "Incantesimi",
+            "path": "packs/incantesimi.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "ilrichiamodicthulhu"
         },
         {
-            "name": "carte",
-            "label": "Carte",
-            "path": "packs/carte.db",
-            "entity": "Cards",
-            "type": "Cards",
-            "package": "multiverse5e"
+            "name": "tomidelsaperearcano",
+            "label": "Tomi del Sapere Arcano",
+            "path": "packs/tomidelsaperearcano.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "ilrichiamodicthulhu"
         },
         {
             "name": "background",
@@ -167,8 +166,8 @@
             "package": "multiverse5e"
         }
     ],
-    "url": "https://github.com/Archer39/Multiverse-5e",
-    "manifest": "https://github.com/Archer39/5e-Multiverse/releases/latest/download/module.json",
-    "download": "https://github.com/Archer39/5e-Multiverse/releases/latest/download/module.zip",
-    "description": "Questo modulo aggiunge classi, sottoclassi e altri elementi mancanti da D&D 5e SRD. Inoltre aggiunge il pazzo materiale Homebrew di Archer e i suoi amici, aiutato da dodo"
+    "url": "https://github.com/Elizar9/Il-Richiamo-Di-Cthulhu",
+    "manifest": "https://github.com/Elizar9/Il-Richiamo-Di-Cthulhu/releases/latest/download/module.json",
+    "download": "https://github.com/Elizar9/Il-Richiamo-Di-Cthulhu/releases/latest/download/module.zip",
+    "description": "Questo modulo aggiunge tutti gli elementi del richiamo di cthulhu per 7ed."
 }
